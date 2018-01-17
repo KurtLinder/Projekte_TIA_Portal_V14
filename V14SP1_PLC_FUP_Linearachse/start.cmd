@@ -1,3 +1,3 @@
 h:
-cd TwinCAT_V3
-start Projekt.ap14
+cd h:\TiaPortal_V14\Linearachse
+start Linearachse.ap14
