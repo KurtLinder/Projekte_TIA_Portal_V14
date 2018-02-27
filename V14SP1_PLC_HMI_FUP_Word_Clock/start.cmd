@@ -1,3 +1,3 @@
 h:
-cd h:\TwinCAT_V3
-start Projekt.ap14
+cd h:\TiaPortal_V14\WordClock
+start WordClock.ap14
