@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.7">
+  <POU Name="StetigerPID_Regler" Id="{20e314d3-8c7e-46dd-8198-6fb13d4a01d0}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM StetigerPID_Regler
+VAR
+	fSetpointValue					: FLOAT		:= 5.0;
+	fActualValue					: FLOAT;
+	fManSyncValue				: FLOAT;
+	bSync							: BOOL;
+
+	fOut							: FLOAT;
+	bHold							: BOOL;
+
+	eMode							: E_CTRL_MODE;
+	stCTRL_PID_PARAMS		: ST_CTRL_PID_PARAMS;
+
+	eErrorId						: E_CTRL_ERRORCODES;
+	bError							: BOOL;
+	bARWactive					: BOOL;
+
+	(* controller *)
+	fbCTRL_PID					: FB_CTRL_PID;
+
+	bInit							: BOOL	:= TRUE;
+	fbTON							: TON;
+	
+	fSetpointValueToScope: LREAL;
+	fActualValueToScope: LREAL;
+	fOutToScope: LREAL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+
+IF bInit
+THEN
+	(* init parameter struct *)
+	stCTRL_PID_PARAMS.tCtrlCycleTime		:= T#10ms;
+	stCTRL_PID_PARAMS.tTaskCycleTime		:= T#10ms;
+	stCTRL_PID_PARAMS.fKp					:= 2.0;			(* proportional gain Kp				*)
+	stCTRL_PID_PARAMS.tTn					:= T#1s;		(*  Tn									*)
+	stCTRL_PID_PARAMS.tTv					:= T#200ms;	(*  Tv									*)
+	stCTRL_PID_PARAMS.tTd					:= T#100ms;	(*  Td									*)
+	stCTRL_PID_PARAMS.fOutMaxLimit			:=  32765;			(* maximum output limit				*)
+	stCTRL_PID_PARAMS.fOutMinLimit			:= 0;			(* minimum output limit				*)
+
+	(* set the mode to ACTIVE --> normal operation *)
+	eMode							:= eCTRL_MODE_ACTIVE;
+
+	(* reset the init flag *)
+	bInit							:= FALSE;
+END_IF
+
+fSetpointValue := 2000;
+
+		fActualValue := AN.AI_1;
+		fActualValue := fActualValue / 8.18;
+
+
+(* copy var to scope var *)
+fSetpointValueToScope 	:= fSetpointValue;
+fActualValueToScope 		:= fActualValue;
+
+
+(* call controller *)
+fbCTRL_PID(		fSetpointValue		:= fSetpointValue,
+					fActualValue		:= fActualValue,
+					fManSyncValue	:= fManSyncValue,
+					bSync				:= bSync,
+					eMode				:= eMode,
+					bHold				:= bHold,
+					stParams			:= stCTRL_PID_PARAMS,
+					fOut				=> fOut,
+					bARWactive		=> bARWactive,
+					eErrorId			=> eErrorId,
+					bError				=> bError
+				);
+
+
+(* copy var to scope var *)
+
+fOutToScope := fOut;
+AN.AQ_1 :=  LREAL_TO_UINT (fOut);]]></ST>
+    </Implementation>
+    <LineIds Name="StetigerPID_Regler">
+      <LineId Id="203" Count="21" />
+      <LineId Id="231" Count="1" />
+      <LineId Id="260" Count="0" />
+      <LineId Id="233" Count="22" />
+      <LineId Id="262" Count="0" />
+      <LineId Id="2" Count="0" />
+      <LineId Id="261" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
