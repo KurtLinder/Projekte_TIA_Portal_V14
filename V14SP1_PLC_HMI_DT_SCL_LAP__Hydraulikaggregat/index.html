@@ -1,0 +1,128 @@
+﻿<!doctype html>
+<html lang="de">
+   <head>
+      <meta charset="utf-8">
+      <title>Projekt</title>
+      <style>
+         h1 {
+			 font-family: arial, sans-serif;
+			 text-align: center;
+			 padding: 1em;
+			 border: 3px solid black;
+			 background-color: #E0E0E0;
+			 display: inline-block;
+         }
+         .text_schwarz {
+			 font-family: arial, sans-serif;
+			 font-size: 12pt;
+			 font-weight: normal;
+			 color: black;
+         }
+		.di {
+			 background-color: rgb(243, 247, 129);
+			 width: 50px;
+		 }
+		.dq {
+			 background-color: rgb(169, 245, 225);
+			 width: 80px;
+		}
+      </style>
+   </head>
+   <body>
+      <h1>Hydaulikaggregat DigitalTwin(FUP)  </h1>   
+		<br>
+		
+		<table>
+			<tr>
+				<td style="vertical-align: top;">	  
+					<img width="400px"   src="https://www.linderonline.at/medien/image/lbs/lau/tia_portal_v14/hydraulikaggregat_digital_twin_hmi.JPG" />
+				</td>
+				<td style="vertical-align: top;">
+				  <span class="text_schwarz">
+					 <table border="1" cellpadding="5">
+						<tr class="variablentabelle">	<td>Bezeichnung	</td> <td>Anschluss			</td><td>Kommentar			</td> </tr>            
+
+							
+						<tr class="di">
+							<td>-Q1 </td>
+							<td>DI0.0 </td>
+							<td>Netzschütz</td>
+						</tr>
+						<tr class="di">
+							<td>-Q2 </td>
+							<td>DI0.1 </td>
+							<td>Sternschütz</td>
+						</tr>
+						<tr class="di">
+							<td>-Q3 </td>
+							<td>DI0.2 </td>
+							<td>Dreieckschütz</td>
+						</tr>
+						<tr class="di">
+							<td>-P1 </td>
+							<td>DI0.3 </td>
+							<td>Meldeleuchte "Störung Motor" (rot)</td>
+						</tr>
+						<tr class="di">
+							<td>-P2 </td>
+							<td>DI0.4 </td>
+							<td>Meldeleuchte "Überdruck" (rot)</td>
+						</tr>
+						<tr class="di">
+							<td>-P3 </td>
+							<td>DI0.5 </td>
+							<td>Meldeleuchte "Druck erreicht" (grün)</td>
+						</tr>
+						<tr class="di">
+							<td>-P4 </td>
+							<td>DI0.6 </td>
+							<td>Meldeleuchte "Ölstand min." (rot)</td>
+						</tr>						
+						
+						<tr class="dq">
+							<td>-S1 </td>
+							<td>DQ0.0 </td>
+							<td>Taster "Start"</td>
+						</tr>
+						<tr class="dq">
+							<td>-S2 </td>
+							<td>DQ0.1 </td>
+							<td>Taster "Stop"</td>
+						</tr>
+						<tr class="dq">
+							<td>-S3 </td>
+							<td>DQ0.2 </td>
+							<td>Taster "Quittieren"</td>
+						</tr>
+						<tr class="dq">
+							<td>-B1 </td>
+							<td>DQ0.3 </td>
+							<td>Ölbehälter Füllstand </td>
+						</tr>
+						<tr class="dq">
+							<td>-B2 </td>
+							<td>DQ0.4 </td>
+							<td>Öldruck erreicht </td>
+						</tr>
+						<tr class="dq">
+							<td>-B3 </td>
+							<td>DQ0.5 </td>
+							<td>Überdruck Öldruck </td>
+						</tr>						
+						<tr class="dq">
+							<td>-F5 </td>
+							<td>DQ0.6 </td>
+							<td>Motorschutzschalter </td>
+						</tr>
+
+	
+						</table>
+				  </span>
+    
+				</td>
+			</tr>
+		</table>
+		
+      <br><br>
+   </body>
+</html>	  	 
