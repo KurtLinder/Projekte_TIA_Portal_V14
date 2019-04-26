@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DownloadTask>
+  <ProjectInfo
+    DeviceVersion="14.0.1.0"
+    CreationTime="2019-04-24 13:54:23 (UTC)"
+    Runtime="SMART"
+    RtProjectName="EnergieZaehler.HMI[KTP700 Basic PN]"
+    RtProjectFolderName="EnergieZaehler.HMI[KTP700 Basic PN]"
+    DeviceType="KTP700_Basic"
+    DisplayOrientation="0"
+    RTReleaseNo="14.0.1.6"
+    ImageReleaseNo="14.0.1.6"
+    RTCV="14.0.1.0"
+    PRCV="14.0.1.0"
+    FirmwareFileName="KTP700\14.0.1.6\KTP700_V14_00_01_06.fwf"
+    RuntimeFileName="KTP700\14.0.1.6\KTP700_V14_00_01_06.fwf"
+    RuntimeAddonFolderName="KTP700" />
+  <FullDownload>pdata.srt</FullDownload>
+  <FullDownload
+    type="ADMINDATA">pdata.pwx</FullDownload>
+  <FullDownload>pdata.ORIE.cnk</FullDownload>
+  <FullDownload>pdata.ETH0.cnk</FullDownload>
+</DownloadTask>
