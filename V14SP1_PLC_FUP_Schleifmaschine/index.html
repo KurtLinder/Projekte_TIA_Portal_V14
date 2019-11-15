@@ -1,127 +1,145 @@
 ﻿<!doctype html>
 <html lang="de">
-   <head>
-      <meta charset="utf-8">
-      <title>Projekt</title>
-      <style>
-         h1 {
-			 font-family: arial, sans-serif;
-			 text-align: center;
-			 padding: 1em;
-			 border: 3px solid black;
-			 background-color: #E0E0E0;
-			 display: inline-block;
-         }
-         .text_schwarz {
-			 font-family: arial, sans-serif;
-			 font-size: 12pt;
-			 font-weight: normal;
-			 color: black;
-         }
-		.di {
-			 background-color: rgb(243, 247, 129);
-			 width: 50px;
-		 }
-		.dq {
-			 background-color: rgb(169, 245, 225);
-			 width: 80px;
+
+<head>
+	<meta charset="utf-8">
+	<title>Projekt</title>
+	<style>
+		h1 {
+			font-family: arial, sans-serif;
+			text-align: center;
+			padding: 1em;
+			border: 3px solid black;
+			background-color: #E0E0E0;
+			display: inline-block;
 		}
-      </style>
-   </head>
-   <body>
-      <h1>TiaPortal V14 SP1 Schleifmaschine (FUP)  </h1>   
 
-		<table>
-			<tr>
-				<td style="vertical-align: top;">
-					<img width="400px" src="https://www.linderonline.at/medien/image/lbs/lau/tia_portal_v14/getriebemotor_mit_gabellichtschranke.jpg" /> 
-				</td>
-				<td style="vertical-align: top;">
-				
-					<span class="text_schwarz">
-						<table border="1" cellpadding="5">
-						<tr class="variablentabelle">    
-						  <td>Bezeichnung			            </td>
-						  <td colspan="2">Kommentar	            </td>
-						</tr> 
-						  
-					  <tr class="di"> 	
-						<td>-S1						            </td>	 
-						<td>Taster (❶) → Störung quittieren    </td>  
-						<td rowspan="2"> <img width="50px" src="https://www.linderonline.at/medien/image/lbs/lau/tia_portal_v14/taster_ein_aus.jpg" />		</td>  
-					  </tr>  
-					  <tr class="di">  	
-						<td>&nbsp;   					        </td>	
-						<td>&nbsp;  	            			</td>
-					  </tr>  
-					  <tr class="di">  	
-						<td>-S3						            </td>	
-						<td>Taster (Ⅰ) → Langsame Drehzahl     </td>
-						<td rowspan="3"> <img width="50px"   src="https://www.linderonline.at/medien/image/lbs/lau/sr_labor/taster_i_stop_ii.jpg" />		</td> 
-					  </tr>  
-					  <tr class="di">
-						<td>-S4						            </td>
-						<td>Taster (STOP) 			            </td> 
-					  </tr> 
-					  <tr class="di"> 	
-						<td>-S5							        </td>	
-						<td>Taster (Ⅱ) → Hohe Drehzahl		    </td>
-					  </tr>  
-					  
-					  <tr class="di"> 
-						<td>-S6							        </td>	
-						<td> (&larr;): Thermorelais langsame Drehzahl		</td>
-						<td rowspan="3"> <img width="50px"  src="https://www.linderonline.at/medien/image/lbs/lau/tia_portal_v14/taster_pfeile_links_rechts.jpg" />		</td>
-					  </tr>  
-					  <tr class="di">  
-						<td>&nbsp;   						            </td>
-						<td>&nbsp;   	            					</td> 
-					  </tr>   
-					  <tr class="di"> 	
-						<td>-S8							        		</td>	
-						<td> (&rarr;): Thermorelais hohe Drehzahl</td>
-					  </tr>  
-						
-					  <tr class="di">	
-						<td>&nbsp;   	        			</td> 	
-						<td>&nbsp;   	        			</td> 
-						<td rowspan="2"> <img width="50px" src="https://www.linderonline.at/medien/image/lbs/lau/sr_labor/Not_Halt.JPG" /> </td> 
-					  </tr> 
-					  <tr class="di">
-						<td>-S9					        	</td>	
-						<td>Not-Halt: → Öffner	            </td> 
-					  </tr> 
-						  
-					  <tr class="dq"> 	
-						<td>-Q1						        </td>	
-						<td colspan="2">Motor Schnell (RL)  </td> 
-					  </tr>
- 
-					  <tr class="dq">
-						<td>-Q3					            </td>
-						<td colspan="2">Motor Langsam (RL)	</td> 
-					  </tr> 
+		.text_schwarz {
+			font-family: arial, sans-serif;
+			font-size: 12pt;
+			font-weight: normal;
+			color: black;
+		}
 
-					  <tr class="dq">	
-						<td>-P1					            </td>	
-						<td colspan="2">Meldeleuchte weiss	</td> 
-					  </tr>     
-					  <tr class="dq">
-						<td>-P2					            </td>	
-						<td colspan="2">Meldeleuchte grün	</td>
-					  </tr>  
-					  <tr class="dq"> 	
-						<td>-P3					            </td>	
-						<td colspan="2">Meldeleuchte rot	</td> 
-					  </tr>   
-					  
-					  </table>
-					</span>
+		td {
+			font-family: arial, sans-serif;
+			font-size: 16pt;
+			font-weight: normal;
+			color: black;
+		}
 
-  				</td>
-			</tr>
-		</table>
-		
-      <br><br>
-   </body>
+		a {
+			font-family: arial, sans-serif;
+			font-size: 16pt;
+			font-weight: normal;
+			color: black;
+		}
+
+		.di {
+			font-family: arial, sans-serif;
+			background-color: rgb(243, 247, 129);
+		}
+
+		.dq {
+			font-family: arial, sans-serif;
+			background-color: rgb(169, 245, 225);
+		}
+	</style>
+</head>
+
+<body>
+	<h1>TiaPortal V14 SP1 Schleifmaschine (FUP) </h1>
+
+
+	<br>
+	<br< <img width="400px"
+		src="https://www.linderonline.at/medien/image/lbs/lau/tia_portal_v14/getriebemotor_mit_gabellichtschranke.jpg" />
+
+	<br><br>
+
+	<table border="1" cellpadding="5">
+		<tr class="variablentabelle">
+			<td>Bezeichnung </td>
+			<td colspan="2">Kommentar </td>
+		</tr>
+
+		<tr class="di">
+			<td>-S1 </td>
+			<td>Taster (❶) → Störung quittieren </td>
+			<td rowspan="2"> <img width="50px"
+					src="https://www.linderonline.at/medien/image/lbs/lau/tia_portal_v14/taster_ein_aus.jpg" /> </td>
+		</tr>
+		<tr class="di">
+			<td>&nbsp; </td>
+			<td>&nbsp; </td>
+		</tr>
+		<tr class="di">
+			<td>-S3 </td>
+			<td>Taster (Ⅰ) → Langsame Drehzahl </td>
+			<td rowspan="3"> <img width="50px"
+					src="https://www.linderonline.at/medien/image/lbs/lau/sr_labor/taster_i_stop_ii.jpg" /> </td>
+		</tr>
+		<tr class="di">
+			<td>-S4 </td>
+			<td>Taster (STOP) </td>
+		</tr>
+		<tr class="di">
+			<td>-S5 </td>
+			<td>Taster (Ⅱ) → Hohe Drehzahl </td>
+		</tr>
+
+		<tr class="di">
+			<td>-S6 </td>
+			<td> (&larr;): Thermorelais langsame Drehzahl </td>
+			<td rowspan="3"> <img width="50px"
+					src="https://www.linderonline.at/medien/image/lbs/lau/tia_portal_v14/taster_pfeile_links_rechts.jpg" /> </td>
+		</tr>
+		<tr class="di">
+			<td>&nbsp; </td>
+			<td>&nbsp; </td>
+		</tr>
+		<tr class="di">
+			<td>-S8 </td>
+			<td> (&rarr;): Thermorelais hohe Drehzahl</td>
+		</tr>
+
+		<tr class="di">
+			<td>&nbsp; </td>
+			<td>&nbsp; </td>
+			<td rowspan="2"> <img width="50px" src="https://www.linderonline.at/medien/image/lbs/lau/sr_labor/Not_Halt.JPG" />
+			</td>
+		</tr>
+		<tr class="di">
+			<td>-S9 </td>
+			<td>Not-Halt: → Öffner </td>
+		</tr>
+
+		<tr class="dq">
+			<td>-Q1 </td>
+			<td colspan="2">Motor Schnell (RL) </td>
+		</tr>
+
+		<tr class="dq">
+			<td>-Q3 </td>
+			<td colspan="2">Motor Langsam (RL) </td>
+		</tr>
+
+		<tr class="dq">
+			<td>-P1 </td>
+			<td colspan="2">Meldeleuchte weiss </td>
+		</tr>
+		<tr class="dq">
+			<td>-P2 </td>
+			<td colspan="2">Meldeleuchte grün </td>
+		</tr>
+		<tr class="dq">
+			<td>-P3 </td>
+			<td colspan="2">Meldeleuchte rot </td>
+		</tr>
+
+	</table>
+
+	<br><br>
+</body>
+
 </html>
