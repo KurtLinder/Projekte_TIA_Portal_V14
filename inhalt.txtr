@@ -1,0 +1,63 @@
+ DatentrÑger in Laufwerk S: ist SNVFELAPL6_D
+ Volumeseriennummer: CE01-2D00
+
+ Verzeichnis von s:\Linder Kurt\TIA Portal V14 SP1\Projekte
+
+23.06.2020  12:26    <DIR>          .
+23.06.2020  12:26    <DIR>          ..
+23.06.2020  12:26                 0 inhalt.txtr
+27.02.2018  13:10               387 PlatzDa.cmd
+10.10.2019  11:30    <DIR>          V14SP1_PLC_BUG_FUP_Getriebemotor
+05.12.2018  16:23    <DIR>          V14SP1_PLC_DT_FUP_LAP__Hochbehaelter
+04.12.2018  12:15    <DIR>          V14SP1_PLC_DT_SCL_LAP__Abfuellanlage
+27.11.2018  11:03    <DIR>          V14SP1_PLC_DT_SCL_LAP__Hochbehaelter
+11.12.2018  10:50    <DIR>          V14SP1_PLC_DT_SCL_LAP__Hydraulikaggregat
+20.02.2018  16:45    <DIR>          V14SP1_PLC_FIO_FUP_Foerderband_4001
+21.02.2018  13:02    <DIR>          V14SP1_PLC_FIO_FUP_Foerderband_4002
+27.02.2018  11:54    <DIR>          V14SP1_PLC_FIO_FUP_Foerderband_4003
+13.03.2018  16:32    <DIR>          V14SP1_PLC_FIO_FUP_Tank_01
+02.05.2018  11:26    <DIR>          V14SP1_PLC_FUP_Getriebemotor
+21.02.2018  12:01    <DIR>          V14SP1_PLC_FUP_Klebestation
+20.11.2018  10:41    <DIR>          V14SP1_PLC_FUP_LAP__Hochbehaelter
+21.02.2018  15:57    <DIR>          V14SP1_PLC_FUP_Lauflicht
+28.02.2018  10:07    <DIR>          V14SP1_PLC_FUP_LeeresProjekt
+21.02.2018  17:16    <DIR>          V14SP1_PLC_FUP_Linearachse
+09.05.2018  12:31    <DIR>          V14SP1_PLC_FUP_Schleifmaschine
+05.02.2019  09:15    <DIR>          V14SP1_PLC_FUP_SchrittLaufLicht
+21.02.2018  16:24    <DIR>          V14SP1_PLC_FUP_Schrittmotor
+27.02.2018  12:40    <DIR>          V14SP1_PLC_FUP_Tastenfeld
+03.04.2018  15:53    <DIR>          V14SP1_PLC_FUP_TemperatureingangNormieren
+10.04.2018  10:19    <DIR>          V14SP1_PLC_FUP_TemperaturRegelstrecke
+20.03.2018  12:05    <DIR>          V14SP1_PLC_FUP_Ueberwachungsrelais
+06.12.2017  11:38    <DIR>          V14SP1_PLC_HMI_FUP_Analogwerte
+26.09.2018  17:21    <DIR>          V14SP1_PLC_HMI_FUP_LeitungszuordnungsTester
+06.03.2018  13:13    <DIR>          V14SP1_PLC_HMI_FUP_Schrittmotor
+06.12.2017  11:38    <DIR>          V14SP1_PLC_HMI_FUP_Seilrolle
+06.12.2017  11:38    <DIR>          V14SP1_PLC_HMI_FUP_Tiefgarage
+27.02.2018  16:09    <DIR>          V14SP1_PLC_HMI_FUP_Word_Clock
+24.04.2019  16:12    <DIR>          V14SP1_PLC_HMI_SCL_EnergieZaehler
+09.01.2019  12:27    <DIR>          V14SP1_PLC_HMI_SCL_Hochregallager
+21.02.2018  17:16    <DIR>          V14SP1_PLC_KOP_Linearachse
+03.04.2018  15:59    <DIR>          V14SP1_PLC_KOP_TemperatureingangNormieren
+31.01.2018  12:44    <DIR>          V14SP1_PLC_SCL_AnalogwertVerarbeitung
+19.06.2018  14:45    <DIR>          V14SP1_PLC_SCL_Hochregallager
+21.02.2018  17:16    <DIR>          V14SP1_PLC_SCL_Linearachse
+06.03.2019  18:25    <DIR>          V14SP1_PLC_SCL_Tankfuellanlage_111
+03.04.2018  16:09    <DIR>          V14SP1_PLC_SCL_TemperatureingangNormieren
+18.02.2020  17:12    <DIR>          V14SP1_PLC_Snap7_FUP_AmpelsteuerungKieswerk
+05.11.2019  15:56    <DIR>          V14SP1_PLC_Snap7_FUP_BehaelterSteuerung
+03.03.2020  13:59    <DIR>          V14SP1_PLC_Snap7_FUP_LAP__2010__1__Kompressoranlage
+03.03.2020  13:59    <DIR>          V14SP1_PLC_Snap7_FUP_LAP__2010__2__Transportwagen
+03.03.2020  13:59    <DIR>          V14SP1_PLC_Snap7_FUP_LAP__2010__3__OfentÅrsteuerung
+03.03.2020  13:59    <DIR>          V14SP1_PLC_Snap7_FUP_LAP__2010__4__AbfÅllanlage
+03.03.2020  13:59    <DIR>          V14SP1_PLC_Snap7_FUP_LAP__2010__5__Pumpensteuerung
+10.12.2019  10:08    <DIR>          V14SP1_PLC_Snap7_FUP_LAP__2018__2__Abfuellanlage
+26.11.2019  16:57    <DIR>          V14SP1_PLC_Snap7_FUP_LAP__2018__3__Niveauregelung
+15.01.2020  12:02    <DIR>          V14SP1_PLC_Snap7_FUP_LAP__2019__Foerderanlage
+10.09.2019  12:47    <DIR>          V14SP1_PLC_Snap7_FUP_LeeresProjekt
+18.02.2020  15:55    <DIR>          V14SP1_PLC_Snap7_FUP_Nadeltelegraph
+15.01.2020  12:05    <DIR>          V14SP1_PLC_Snap7_FUP_Synchronisiereinrichtung
+06.11.2019  12:16    <DIR>          V14SP1_PLC_Snap7_FUP_Tiefgarage
+10.12.2019  10:11    <DIR>          V14SP1_PLC_Snap7_FUP_Wordclock
+               2 Datei(en),            387 Bytes
+              54 Verzeichnis(se),  2ˇ208ˇ210ˇ944 Bytes frei

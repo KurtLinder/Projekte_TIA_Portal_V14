@@ -1,0 +1,79 @@
+﻿{
+  "AlleProjektVerzeichnisse": [
+    {
+      "Kommentar": "Ordner",
+      "Quelle": "h:/git/Snap7-master/Sharp7",
+      "Ziel": "s:/Linder Kurt/TIA Portal V14 SP1/Projekte"
+    },
+    {
+      "Kommentar": "AmpelsteuerungKieswerk",
+      "Quelle": "AmpelsteuerungKieswerk/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_AmpelsteuerungKieswerk/AmpelsteuerungKieswerk"
+    },
+    {
+      "Kommentar": "BehaelterSteuerung",
+      "Quelle": "BehaelterSteuerung/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_BehaelterSteuerung/BehaelterSteuerung"
+    },	
+    {
+      "Kommentar": "LAP_2010_1_Kompressoranlage",
+      "Quelle": "LAP_2010_1_Kompressoranlage/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_LAP__2010__1__Kompressoranlage/LAP_2010_1_Kompressoranlage"
+    },
+    {
+      "Kommentar": "LAP_2010_2_Transportwagen",
+      "Quelle": "LAP_2010_2_Transportwagen/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_LAP__2010__2__Transportwagen/LAP_2010_2_Transportwagen"
+    },
+    {
+      "Kommentar": "LAP_2010_3_Ofentuersteuerung",
+      "Quelle": "LAP_2010_3_Ofentuersteuerung/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_LAP__2010__3__Ofentuersteuerung/LAP_2010_3_Ofentuersteuerung"
+    },
+    {
+      "Kommentar": "LAP_2010_4_Abfuellanlage",
+      "Quelle": "LAP_2010_4_Abfuellanlage/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_LAP__2010__4__Abfuellanlage/LAP_2010_4_Abfuellanlage"
+    },
+    {
+      "Kommentar": "LAP_2010_5_Pumpensteuerung",
+      "Quelle": "LAP_2010_5_Pumpensteuerung/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_LAP__2010__5__Pumpensteuerung/LAP_2010_5_Pumpensteuerung"
+    },
+    {
+      "Kommentar": "LAP_2018_2_Abfuellanlage",
+      "Quelle": "LAP_2018_2_Abfuellanlage/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_LAP__2018__2__Abfuellanlage/LAP_2018_Abfuellanlage"
+    },
+    {
+      "Kommentar": "LAP_2018_4_Niveauregelung",
+      "Quelle": "LAP_2018_4_Niveauregelung/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_LAP__2018__4__Niveauregelung/LAP_2018_Niveauregelung"
+    },
+    {
+      "Kommentar": "LAP_2019_Foerderanlage",
+      "Quelle": "LAP_2019_Foerderanlage/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_LAP__2019__Foerderanlage/LAP_2019_Foerderanlage"
+    },
+    {
+      "Kommentar": "Nadeltelegraph",
+      "Quelle": "Nadeltelegraph/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_Nadeltelegraph/Nadeltelegraph"
+    },
+    {
+      "Kommentar": "Synchronisiereinrichtung",
+      "Quelle": "Synchronisiereinrichtung/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_Synchronisiereinrichtung/Synchronisiereinrichtung"
+    },
+    {
+      "Kommentar": "Tiefgarage",
+      "Quelle": "Tiefgarage/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_Tiefgarage/Tiefgarage"
+    },
+    {
+      "Kommentar": "WordClock",
+      "Quelle": "WordClock/bin/Debug",
+      "Ziel": "V14SP1_PLC_Snap7_FUP_Wordclock/WordClock"
+    },	
+  ]
+}
